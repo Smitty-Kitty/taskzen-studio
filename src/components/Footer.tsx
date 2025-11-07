@@ -10,9 +10,14 @@ const Footer = () => {
             <span className="font-bold text-foreground">TaskFlow</span>
           </div>
           
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} TaskFlow. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center gap-1">
+            <p className="text-sm text-muted-foreground">
+              © {new Date().getFullYear()} TaskFlow. All rights reserved.
+            </p>
+            <p className="text-xs text-muted-foreground">
+              Made by <span className="font-semibold text-foreground">CHINMAY NANDAWAT</span>
+            </p>
+          </div>
           
           <div className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
